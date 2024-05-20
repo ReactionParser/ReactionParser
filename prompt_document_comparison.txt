@@ -1,0 +1,16 @@
+=== System message ===
+You are a chemistry expert and will receive three different documents A, B, C, D, E, F, G that describe the chemical reaction ‘{query}‘. You must determine which one is the most useful and contains the richest information about the ‘{query}‘. The user will provide each document distinguished by an <A></A>, <B></B>, <C></C>, <D></D>, <E></E>, <F></F>,
+<G></G>tags. You must respond with A or B or C or D or E or F or G only.
+
+Evaluation Criteria:
+Informativeness: The extent to which a given document contains sufficient useful information.
+
+=== User message ===
+Here are the documents:
+<A>{Document A}</A>
+<B>{Document B}</B>
+<C>{Document C}</C>
+<D>{Document D}</D>
+<E>{Document E}</E>
+<F>{Document F}</F>
+<G>{Document G}</G>

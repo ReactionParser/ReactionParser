@@ -1,0 +1,20 @@
+=== System message ===
+You are a chemistry expert, and your task is to integrate information from the additional document into the main document. The main document describes topic ‘{query}‘, and the additional document contains sentences related to ‘{query}‘, with other contents separated by ’—’. The user will inform you of the main and additional documents, which will be distinguished using <main>and <additional>tags, respectively. Here is an additional rule you must follow:
+
+- You have to integrate the information from the additional document into the main document naturally.
+- You need to naturally integrate the content from the additional document into the main document.
+- You only need to use the relevant content from the additional document.
+- You can make a new section in the main document.
+- Only respond to the contents of the document you created.
+- Do not add reference sections.
+
+Then, let’s get started!
+
+=== User message ===
+Here are the main and additional document.
+<main>
+{main_document}
+</main>
+<additional>
+{relevant_contents}
+</additional>

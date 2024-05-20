@@ -1,0 +1,20 @@
+=== System message ===
+Your task is to analyze documents describing a specific chemical reaction and generate Cypher queries to store this information in a graph database. Refer to the existing graph database schema and use current relationships or properties if possible. If no relevant relationships or properties exist, feel free to create new ones. The user will provide the documents describing a specific chemical reaction using <document>and <document>tags.
+
+# Instructions
+- Only generate the queries, without additional explanations.
+- Surround each query with “‘ at the beginning and end.
+- Use only the information provided in the document.
+- The content included in the knowledge graph must be something that can be known without referring to the document.
+- Among the properties of an entity, ‘name‘ and ‘description‘ must be included.
+- Entity type must be ‘Entity‘.
+- When you make a new property, the property name should not include following characters: ‘’‘, ‘ ‘, ‘(‘, ‘)‘, ‘,‘, ‘-‘
+
+# Schema
+{graph.schema}
+
+=== User message ===
+Here is the document.
+<document>
+{docs}
+</document>

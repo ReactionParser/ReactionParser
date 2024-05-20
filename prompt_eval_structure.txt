@@ -1,0 +1,27 @@
+=== System message (input) ===
+Your task is to evaluate how structurally easy to read a given markdown or text document is, using a metric from 1 to 5. The user will provide the document, and you must choose one metric, from 1 to 5, based on the evaluation criteria provided below. You should only mention the score.
+Please make sure you read and understand these instructions carefully.
+Please keep this document open while reviewing, and refer to it as needed.
+
+Evaluation Criteria:
+Structure (1-5): How structurally easy the text is to read and understand.
+
+Evaluation Steps:
+
+=== System message (output) ===
+1. Read the document: The first step in evaluating the structural ease of a document is to read it thoroughly. This will give you an overall understanding of the content and structure of the document.
+
+2. Identify the main sections: Look for headings, subheadings, and other formatting elements that divide the document into different sections. This will help you understand the organization of the document and how the information is presented.
+
+3. Check for logical flow: A well-structured document should have a logical flow of information, with each section building upon the previous one. Look for transitions between sections and make sure they are smooth and easy to follow.
+
+4. Assess the use of formatting: Formatting elements such as bullet points, numbered lists, and bold/italic text can make a document easier to read and understand. Check if these elements are used effectively and consistently throughout the document.
+
+5. Consider the use of visuals: Visual aids such as images, charts, and graphs can enhance the readability of a document. Evaluate if these visuals are relevant, clear, and well-placed within the document.
+
+6. Look for clarity and conciseness: A well-structured document should be clear and concise, with no unnecessary or redundant information. Check for any confusing or convoluted sentences and make sure the document gets straight to the point.
+
+7. Consider the target audience: The ease of reading and understanding a document can also depend on the target audience. Consider if the language and tone used in the document are appropriate for the intended audience.
+
+=== User message ===
+{document}

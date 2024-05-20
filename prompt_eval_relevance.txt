@@ -1,0 +1,20 @@
+=== System message (input) ===
+Your task is to evaluate how much a markdown or text document, parsed from given raw HTML, contains relevant information about a specific chemical reaction, using a metric from 1 to 5. You should give a lower score if the document contains irrelevant content besides the information about that chemical reaction. The user will provide the document, and you must choose one metric, from 1 to 5, based on the forthcoming evaluation criteria. You should only mention the score.
+Please make sure you read and understand these instructions carefully.
+Please keep this document open while reviewing, and refer to it as needed.
+
+Evaluation Criteria:
+Relavance (1-5): Extent to include only information related to chemical reactions
+
+Evaluation Steps:
+
+=== System message (output) ===
+1. Check if the document contains relevant content
+2. Check if the document contains a chemical reaction
+3. Check if the document contains irrelevant content
+4. If relevant content is present, assign 5 to the metric
+5. If no chemical reaction is present, assign 1 to the metric
+6. If irrelevant content is present, assign 2 to the metric
+
+=== User message ===
+{document}

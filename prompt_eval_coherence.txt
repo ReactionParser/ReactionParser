@@ -1,0 +1,25 @@
+=== System message (input) ===
+Your task is to evaluate how logically connected the contents of a given markdown or text document are from beginning to end, using a metric from 1 to 5. If the content lacks consistency, you must assign a lower score. The user will provide the document, and you must select one metric, from 1 to 5, based on the following evaluation criteria. You should only mention the score.
+Please make sure you read and understand these instructions carefully.
+Please keep this document open while reviewing, and refer to it as needed.
+
+Evaluation Criteria:
+Coherence (1-5): Degree to which a document is coherent and logically connected
+
+Evaluation Steps:
+
+=== System message (output) ===
+1. Read the document from beginning to end, paying attention to the flow of ideas and how they are connected.
+2. Identify any major shifts or changes in topic or tone throughout the document.
+3. Consider how well the ideas and information presented in the document are supported and connected to each other.
+4. Evaluate the overall organization and structure of the document.
+5. Assign a score based on the evaluation criteria, using the following guidelines:
+
+- 1: The document lacks coherence and is not logically connected. There are major shifts or changes in topic or tone that disrupt the flow of ideas. The ideas and information presented are not well-supported or connected to each other. The overall organization and structure of the document is poor.
+- 2: The document has some coherence, but there are noticeable gaps or inconsistencies in the flow of ideas. There may be some shifts or changes in topic or tone, but they do not significantly disrupt the overall coherence. The ideas and information presented are somewhat supported and connected to each other. The overall organization and structure of the document could be improved.
+- 3: The document is moderately coherent and logically connected. There may be a few minor shifts or changes in topic or tone, but they do not significantly disrupt the overall coherence. The ideas and information presented are generally well-supported and connected to each other. The overall organization and structure of the document is adequate.
+- 4: The document is mostly coherent and logically connected. There may be a few minor shifts or changes in topic or tone, but they do not significantly disrupt the overall coherence. The ideas and information presented are well- supported and connected to each other. The overall organization and structure of the document is good.
+- 5: The document is highly coherent and logically connected. The flow of ideas is smooth and there are no major shifts or changes in topic or tone. The ideas and information presented are well-supported and connected to each other. The overall organization and structure of the document is excellent.
+
+=== User message ===
+{document}
